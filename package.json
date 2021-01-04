@@ -6,7 +6,7 @@
 	"bin": {
 		"create-react-app-for-wp": "index.js"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": ["react", "wordpress", "wp"],
+	"author": "Mehbub Rashid",
 	"license": "ISC"
 }
