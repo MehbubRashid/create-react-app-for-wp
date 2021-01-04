@@ -1,0 +1,15 @@
+{
+	"name": "create-react-app-for-wp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"create-react-app-for-wp": "index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
