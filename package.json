@@ -1,6 +1,6 @@
 {
 	"name": "create-react-app-for-wp",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Create a react app that can be used in WordPress Theme & Plugins.",
 	"main": "index.js",
 	"repository": {
