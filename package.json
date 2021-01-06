@@ -3,6 +3,10 @@
 	"version": "1.0.2",
 	"description": "Create a react app that can be used in WordPress Theme & Plugins.",
 	"main": "index.js",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/MehbubRashid/create-react-app-for-wp"
+	},
 	"bin": {
 		"create-react-app-for-wp": "index.js"
 	},
