@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-
-var downloader = require('github-download-directory');
+var download = require('download-github-repo');
 var npm = require('npm');
 
 console.log('\x1b[36m%s\x1b[0m', '========================================');
@@ -15,7 +14,7 @@ console.log('\x1b[36m%s\x1b[0m', '========================================');
 console.log('\x1b[36m%s\x1b[0m', 'Downloading boilerplate...');
 
 // Download to the current directory
-downloader.download('MehbubRashid', 'create-react-app-for-wp', 'source').then(() => {
+download('MehbubRashid/react-js-in-wp', '.', function () {
     console.log('\x1b[32m%s\x1b[0m', 'Download complete.');
 
     console.log('\x1b[36m%s\x1b[0m', 'Installing npm packages...');
@@ -42,5 +41,5 @@ downloader.download('MehbubRashid', 'create-react-app-for-wp', 'source').then(()
         });
         console.log('\x1b[33m%s\x1b[0m', 'Done! Start writing your components in src/components/App.js                                   ');
     });
-})
+});
 
