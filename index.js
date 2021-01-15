@@ -14,7 +14,7 @@ console.log('\x1b[36m%s\x1b[0m', '========================================');
 console.log('\x1b[36m%s\x1b[0m', 'Downloading boilerplate...');
 
 // Download to the current directory
-download('MehbubRashid/react-js-in-wordpress', '.', function () {
+download('MehbubRashid/create-react-app-for-wp/source', '.', function () {
     console.log('\x1b[32m%s\x1b[0m', 'Download complete.');
 
     console.log('\x1b[36m%s\x1b[0m', 'Installing npm packages...');
